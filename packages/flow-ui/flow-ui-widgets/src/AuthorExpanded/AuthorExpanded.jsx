@@ -103,7 +103,7 @@ const AuthorBio = ({ title, description }) => (
 const AuthorSkills = ({ skills }) =>
   skills ? (
     <Box sx={styles.innerBox}>
-      <Subheader>Expertise</Subheader>
+      <Subheader>Esperiancia</Subheader>
       {skills.map(skill => (
         <Text key={`skill-${skill}`}>{skill}</Text>
       ))}
@@ -113,7 +113,7 @@ const AuthorSkills = ({ skills }) =>
 const AuthorSocialMedia = ({ social }) =>
   social ? (
     <Box sx={styles.innerBox}>
-      <Subheader>Social Media</Subheader>
+      <Subheader>Mídias Sociais</Subheader>
       <Navigation
         variant='vertical'
         items={attachSocialIcons(social)}
@@ -152,7 +152,7 @@ const AuthorExpanded = ({ author, withLink }) => {
       </Flex>
       {withLink && (
         <Badge variant='tag' as={GLink} to={author.slug} sx={styles.link}>
-          View Posts
+          Ver Materias
         </Badge>
       )}
       <Box sx={styles.gradient} />

@@ -27,12 +27,14 @@ module.exports = {
   // Customize your site metadata:
   siteMetadata: {
     //General Site Metadata
-    title: 'FlexiBlog Theme',
-    name: 'FlexiBlog',
-    description: 'My site description...',
-    address: 'New York, NY',
-    email: 'email@example.com',
-    phone: '+1 (888) 888-8888',
+    title: 'G5 News',
+    name: 'G5News',
+    description:
+      'Goiás em Tempo real. Acompanhe as últimas notícias de Brasília, Goiânia e todo o estado de Goiás.',
+    address:
+      'Av. T-4, Ed. Buena Vista Office Design - 16° andar - 1613 Goiânia - GO',
+    email: 'contato@g5news.com.br',
+    phone: '(62) 3988-7592',
 
     //Site Social Media Links
     social: [
@@ -57,11 +59,11 @@ module.exports = {
         slug: '/'
       },
       {
-        name: 'Our Team',
+        name: 'A Redação',
         slug: '/authors'
       },
       {
-        name: 'Contact',
+        name: 'Contato',
         slug: '/contact'
       }
     ],
@@ -69,35 +71,35 @@ module.exports = {
     //Footer Menu Items (2 Sets)
     footerMenu: [
       {
-        title: 'Quick Links',
+        title: 'Links Rápidos',
         items: [
           {
-            name: 'Advertise with us',
+            name: 'Anuncie conosco',
             slug: '/contact'
           },
           {
-            name: 'About Us',
+            name: 'Quem Somos',
             slug: '/about'
           },
           {
-            name: 'Contact Us',
+            name: 'Fale Conosco',
             slug: '/contact'
           }
         ]
       },
       {
-        title: 'Legal Stuff',
+        title: 'Politicas do site',
         items: [
           {
-            name: 'Privacy Notice',
+            name: 'Notificação de privacidade',
             slug: '/'
           },
           {
-            name: 'Cookie Policy',
+            name: 'Política de cookies',
             slug: '/'
           },
           {
-            name: 'Terms Of Use',
+            name: 'Termos de uso',
             slug: '/'
           }
         ]
