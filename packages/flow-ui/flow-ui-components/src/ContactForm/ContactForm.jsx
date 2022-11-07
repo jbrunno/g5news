@@ -36,17 +36,17 @@ const ContactForm = ({ handleSubmit, submitting, success }) => (
     )}
     <Box variant='forms.row'>
       <Box variant='forms.column'>
-        <Label htmlFor='contact-form-name'>Name</Label>
+        <Label htmlFor='contact-form-name'>Nome</Label>
         <Input type='text' id='contact-form-name' name='name' required />
       </Box>
       <Box variant='forms.column'>
-        <Label htmlFor='contact-form-company'>Company Name</Label>
+        <Label htmlFor='contact-form-company'>nome da empresa</Label>
         <Input type='text' id='contact-form-company' name='company' />
       </Box>
     </Box>
     <Box variant='forms.row'>
       <Box variant='forms.column'>
-        <Label htmlFor='contact-form-email'>Email</Label>
+        <Label htmlFor='contact-form-email'>E-mail</Label>
         <Input
           type='email'
           placeholder='email@example.com'
@@ -56,7 +56,7 @@ const ContactForm = ({ handleSubmit, submitting, success }) => (
         />
       </Box>
       <Box variant='forms.column'>
-        <Label htmlFor='contact-form-phone'>Phone Number</Label>
+        <Label htmlFor='contact-form-phone'>Número de telefone</Label>
         <Input
           type='tel'
           placeholder='(xxx) xxx-xxxx'
@@ -66,11 +66,11 @@ const ContactForm = ({ handleSubmit, submitting, success }) => (
       </Box>
     </Box>
     <Box variant='forms.row'>
-      <Label htmlFor='contact-form-subject'>Subject</Label>
+      <Label htmlFor='contact-form-subject'>Assunto</Label>
       <Input type='text' id='contact-form-subject' name='subject' required />
     </Box>
     <Box variant='forms.row'>
-      <Label htmlFor='contact-form-message'>Your Message</Label>
+      <Label htmlFor='contact-form-message'>Sua mensagem</Label>
       <Textarea name='message' id='contact-form-message' />
     </Box>
     <Button
@@ -79,7 +79,7 @@ const ContactForm = ({ handleSubmit, submitting, success }) => (
       type='submit'
       required
     >
-      Submit {submitting && <Spinner size='20' />}
+      Enviar {submitting && <Spinner size='20' />}
     </Button>
   </form>
 )

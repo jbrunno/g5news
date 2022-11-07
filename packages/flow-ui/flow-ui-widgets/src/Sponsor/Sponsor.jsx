@@ -30,7 +30,7 @@ const Sponsor = props => {
         <Img image={image} css={css(styles.image)} alt='Sponsor' />
       </Link>
       <Link variant='mute' as={GLink} to='/contact' sx={styles.caption}>
-        ADVERTISE WITH US
+      Anuncie Conosco
       </Link>
     </Section>
   )

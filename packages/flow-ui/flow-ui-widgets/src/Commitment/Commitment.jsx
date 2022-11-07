@@ -3,14 +3,12 @@ import { Card, Text } from 'theme-ui'
 import Section from '@components/Section'
 
 const Commitment = props => (
-  <Section aside title='Our Commitment' {...props}>
+  <Section aside title='Princípios Editoriais' {...props}>
     <Card variant='paper'>
       <Text variant='p'>
-        We take our commitment to our users seriously. If you need our help with
-        your project, have questions about how to use the site or are
-        experiencing any technical difficulties, please do not hesitate to
-        contact us.
+        Atuar na defesa da democracia representativa, da livre iniciativa, da liberdade de expressão, da transparência nos gastos públicos e dos interesses dos cidadãos na construção de um país mais justo nas oportunidades...   
       </Text>
+      <button>Ver mais</button>
     </Card>
   </Section>
 )

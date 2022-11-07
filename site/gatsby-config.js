@@ -14,6 +14,18 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'G5 News Goiás em Tempo real',
+        short_name: 'G5 News',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#5a67d8',
+        display: 'minimal-ui',
+        icon: 'content/assets/favicon.png'
+      }
+    },
+    {
       // ATTENTION: Match the theme name with the theme you're using
       resolve: '@elegantstack/gatsby-theme-flexiblog-agency',
       options: {
@@ -33,7 +45,7 @@ module.exports = {
       'Goiás em Tempo real. Acompanhe as últimas notícias de Brasília, Goiânia e todo o estado de Goiás.',
     address:
       'Av. T-4, Ed. Buena Vista Office Design - 16° andar - 1613 Goiânia - GO',
-    email: 'contato@g5news.com.br',
+    email: 'contato@g5news.com',
     phone: '(62) 3988-7592',
 
     //Site Social Media Links
