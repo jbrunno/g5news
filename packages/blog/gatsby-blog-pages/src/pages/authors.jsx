@@ -15,8 +15,8 @@ const PageAuthors = props => {
       <Divider />
       <Stack effectProps={{ effect: 'fadeInDown' }}>
         <PageTitle
-          header='Team Members'
-          subheader='FlexiBlog theme comes with a pre-made contact form component. You can integrate this form with serverless services such as Formspree, Getform, FormKeep and others to receive form submissions via email.'
+          header='Conheça nossa redação'
+          subheader='O Site G5News é voltado para todas as classes, com forte atuação em Goiás. Conta hoje com média de 50 mil visitas diárias e segue uma linha editorial moderada, mas de forte opinião. Nossa equipe é composta por jornalistas gabaritados e comprometidos com a ética e a verdade dos fatos.'
         />
       </Stack>
       <Stack>
