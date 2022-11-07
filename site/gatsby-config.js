@@ -29,6 +29,7 @@ module.exports = {
       // ATTENTION: Match the theme name with the theme you're using
       resolve: '@elegantstack/gatsby-theme-flexiblog-agency',
       options: {
+        siteUrl: 'https://beamish-snickerdoodle-5815c0.netlify.app',
         sources: {
           strapi: true,
           local: false
