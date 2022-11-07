@@ -26,6 +26,10 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {}
+    },
+    {
       // ATTENTION: Match the theme name with the theme you're using
       resolve: '@elegantstack/gatsby-theme-flexiblog-agency',
       options: {
@@ -48,6 +52,7 @@ module.exports = {
       'Av. T-4, Ed. Buena Vista Office Design - 16° andar - 1613 Goiânia - GO',
     email: 'contato@g5news.com',
     phone: '(62) 3988-7592',
+    siteUrl: 'https://beamish-snickerdoodle-5815c0.netlify.app',
 
     //Site Social Media Links
     social: [
