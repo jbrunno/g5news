@@ -7,7 +7,7 @@ module.exports = {
       options: {
         apiURL:
           process.env.STRAPI_API_URL ||
-          'http://gyyldb.hospedagemelastica.com.br',
+          'http://158.69.35.252:1337',
         accessToken: process.env.STRAPI_TOKEN,
         collectionTypes: ['article', 'category', 'author'],
         queryLimit: 1000
