@@ -103,7 +103,7 @@ const AuthorBio = ({ title, description }) => (
 const AuthorSkills = ({ skills }) =>
   skills ? (
     <Box sx={styles.innerBox}>
-      <Subheader>Esperiancia</Subheader>
+      <Subheader>Especialidade</Subheader>
       {skills.map(skill => (
         <Text key={`skill-${skill}`}>{skill}</Text>
       ))}
