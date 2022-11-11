@@ -8,13 +8,7 @@ const Commitment = props => (
       <Text variant='p'>
         Atuar na defesa da democracia representativa, da livre iniciativa, da liberdade de expressão, da transparência nos gastos públicos e dos interesses dos cidadãos na construção de um país mais justo nas oportunidades...   
       </Text>
-      <audio
-        controls
-        src="http://158.69.35.252:8000/radio.mp3">
-            <a href="http://158.69.35.252:8000/radio.mp3">
-                Download audio
-            </a>
-    </audio>
+       <embed id="background-audio" src="http://158.69.35.252/public/g5_news/embed?theme=light" autostart="1"></embed>
     </Card>
   </Section>
 )
